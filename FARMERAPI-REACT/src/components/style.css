@@ -1,0 +1,150 @@
+.farmer-container {
+  max-width: 1600px; 
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #FAF9F6; 
+  box-shadow: 0px 4px 16px black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: auto; 
+}
+
+.table-wrapper {
+  overflow-x: auto; 
+}
+
+h2, h3 {
+  color: #2C3E50;
+  margin-bottom: 12px;
+}
+
+input, select {
+  padding: 12px;
+  margin: 8px 0;
+  width: 100%;
+  border: 1px solid #CFCFCF;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  background-color: #FFFFFF;
+  transition: all 0.2s ease;
+}
+
+input:focus, select:focus {
+  border-color: #4CAF50; 
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.btn-group {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+  min-width: 140px; 
+}
+
+.btn-blue {
+  background-color: #3498DB; 
+}
+.btn-blue:hover {
+  background-color: #217DBB;
+}
+
+.btn-green {
+  background-color: #27AE60; 
+}
+.btn-green:hover {
+  background-color: #1E8449;
+}
+
+.btn-red {
+  background-color: #E74C3C; 
+}
+.btn-red:hover {
+  background-color: #C0392B;
+}
+
+.btn-gray {
+  background-color: #95A5A6; 
+}
+.btn-gray:hover {
+  background-color: #7F8C8D;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid #E0E0E0;
+  vertical-align: middle;
+}
+
+th {
+  background-color: #F3F4F6;
+  font-weight: 600;
+  color: #2C3E50;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+pre {
+  background-color: #F0F3F1;
+  padding: 12px;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 0.95rem;
+}
+
+.message-banner {
+  position: fixed;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #27AE60; 
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  z-index: 1000;
+  text-align: center;
+  min-width: 300px;
+  max-width: 80%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.message-banner.error {
+  background-color: #E74C3C; 
+}
+
+.message-banner.success {
+  background-color: #27AE60; 
+}
