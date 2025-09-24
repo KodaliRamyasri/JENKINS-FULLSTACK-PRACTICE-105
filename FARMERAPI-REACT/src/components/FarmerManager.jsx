@@ -21,7 +21,7 @@ const FarmerManager = () => {
   const [message, setMessage] = useState('');
   const [editMode, setEditMode] = useState(false);
 
-  const baseUrl = config.baseUrl;
+  const baseUrl = `${config.url}/farmerapi`;
 
   useEffect(() => {
     fetchAllFarmers();
