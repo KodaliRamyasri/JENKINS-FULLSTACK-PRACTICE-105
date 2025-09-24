@@ -1,5 +1,5 @@
 const config = {
-  baseUrl: "http://localhost:2040/farmerapi"
+  baseUrl: "http://localhost:2030/farmerapi"
 };
 
 export default config;
